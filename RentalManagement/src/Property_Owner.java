@@ -6,7 +6,7 @@ public class Property_Owner {
     private User user;
     private List<Property> listOfProperties;
 
-    public PropertyOwner(User user) {
+    public Property_Owner(User user) {
         this.user = user;
         this.listOfProperties = new ArrayList<>();
     }
