@@ -44,15 +44,10 @@ public class Rental_Contract {
     public void setRentAmount(double rentAmount) {
         this.rentAmount = rentAmount;
     }
-
-    
     public void createContract() {
         System.out.println("Rental contract created successfully!");
     }
 
-    public void terminateContract() {
-        System.out.println("Rental contract terminated successfully!");
-    }
 }
 
 
